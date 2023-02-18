@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>428</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>428</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>428</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>ReadMe</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icon.png</normaloff>icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(181, 181, 181);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>363</width>
+         <height>710</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="font">
+           <font>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hi 👋&lt;/p&gt;&lt;p&gt;you can read program instruction here !&lt;/p&gt;&lt;p&gt;first you need to right in the text edit . &lt;/p&gt;&lt;p&gt;you can also paste your text use paste button&lt;/p&gt;&lt;p&gt;and also use &amp;quot;Ctrl+v&amp;quot; shortcut .&lt;/p&gt;&lt;p&gt;you can edit your text in text edit box&lt;/p&gt;&lt;p&gt;now press ok button . &lt;/p&gt;&lt;p&gt;you can also find all keys in commands&lt;/p&gt;&lt;p&gt;now if you want to have converted text &lt;/p&gt;&lt;p&gt;press copy to copy it to clipboard&lt;/p&gt;&lt;p&gt;if you want clear text edir you can use clear button&lt;/p&gt;&lt;p&gt;you can also set dark mode / light mode in setting tab&lt;/p&gt;&lt;p&gt;and check box to hide when click quit button&lt;/p&gt;&lt;p&gt;to have bigger texte edit choose open bigger text edit&lt;/p&gt;&lt;p&gt;and to choose text from text file choose &amp;quot;...&amp;quot;&lt;/p&gt;&lt;p&gt;in the third tab the paste , open bigger... , clear &lt;/p&gt;&lt;p&gt;you write text in text edit and then select language &lt;/p&gt;&lt;p&gt;press ok , then you hear the voice says that .&lt;/p&gt;&lt;p&gt;the second tab is almost thirs tab but it just &lt;/p&gt;&lt;p&gt;suport english and it is ofline.&lt;/p&gt;&lt;p&gt;wait :)&lt;/p&gt;&lt;p&gt;in the forth tab first choose languages .&lt;/p&gt;&lt;p&gt;then write text and press translate button .&lt;/p&gt;&lt;p&gt;it will translate that . &lt;/p&gt;&lt;p&gt;you can press the button on the top have image&lt;/p&gt;&lt;p&gt;and change the languages language .&lt;/p&gt;&lt;p&gt;good luck!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
